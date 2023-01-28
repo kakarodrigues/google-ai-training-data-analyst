@@ -9,17 +9,15 @@ A Vertex AI é uma plataforma unificada e de última geração do Google Cloud. 
 
 ## Objetivos
 
-* Treinar localmente um modelo do TensorFlow em um notebook da Vertex. 
-[**Vertex Notebook**](https://cloud.google.com/vertex-ai/docs/general/notebooks?hl=sv)
+* Treinar localmente um modelo do TensorFlow em um [**Vertex Notebook**](https://cloud.google.com/vertex-ai/docs/general/notebooks?hl=sv)
 
 * Criar um artefato de conjunto de dados tabular para rastrear experimentos.
 
-* Conteinerizar o código de treinamento com o Cloud Build e enviar para o Artifact Registry do Google Cloud. [**Cloud Build**](https://cloud.google.com/build) e enviar para o [**Google Cloud Artifact Registry**](https://cloud.google.com/artifact-registry)
+* Conteinerizar o código de treinamento com o [**Cloud Build**](https://cloud.google.com/build) e enviar para o [**Google Cloud Artifact Registry**](https://cloud.google.com/artifact-registry) do Google Cloud.
 
 * Executar um job de treinamento personalizado da Vertex AI com o contêiner de modelo personalizado.
 
-* Usar o Vertex TensorBoard para ver o desempenho do modelo. 
-[**Vertex TensorBoard**](https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview)
+* Usar o [**Vertex TensorBoard**](https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview) para ver o desempenho do modelo. 
 
 * Implantar o modelo treinado em um endpoint de previsões on-line da Vertex para exibir as previsões. 
 [**Vertex AI custom training job**](https://cloud.google.com/vertex-ai/docs/training/custom-training)
@@ -31,7 +29,7 @@ A Vertex AI é uma plataforma unificada e de última geração do Google Cloud. 
 
 ### 1. Habilite os serviços de nuvem utilizados no ambiente de laboratório:
 
-#### 1.1 No Console do GCP, na barra de ferramentas superior direita, clique no botão Abrir o Cloud Shell. [**Cloud Shell**](https://cloud.google.com/shell/docs/launching-cloud-shell)
+#### 1.1 No Console do GCP, na barra de ferramentas superior direita, clique no botão Abrir o [**Cloud Shell.**](https://cloud.google.com/shell/docs/launching-cloud-shell).
 
 #### 1.2 Set o seu Project ID
 
