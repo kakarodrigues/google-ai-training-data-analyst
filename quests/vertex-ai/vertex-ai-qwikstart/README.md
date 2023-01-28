@@ -1,20 +1,36 @@
 # Vertex AI: Qwik Start
 
-In this lab, you will use [BigQuery](https://cloud.google.com/bigquery) for data processing and exploratory data analysis and the [Vertex AI](https://cloud.google.com/vertex-ai) platform to train and deploy a custom TensorFlow Regressor model to predict customer lifetime value (CLV). The goal of the lab is to introduce Vertex AI through a high value real world use case - predictive CLV. You will start with a local BigQuery and TensorFlow workflow you may already be familiar with and progress toward training and deploying your model in the cloud with Vertex AI as well as retrieving predictions and explanations from your model.
+Neste laboratório, você usará o BigQuery para processamento de dados e análise exploratória de dados e a plataforma Vertex AI para treinar e implantar um modelo TensorFlow Regressor personalizado para prever o valor da vida útil do cliente (CLV). O objetivo do laboratório é apresentar a Vertex AI por meio de um caso de uso real de alto valor - CLV preditivo. Você começará com um fluxo de trabalho local do BigQuery e do TensorFlow com o qual já esteja familiarizado e progredirá para treinar e implantar seu modelo na nuvem com a Vertex AI, além de recuperar previsões e explicações de seu modelo.
 
 ![Vertex AI](./images/vertex-ai-overview.png "Vertex AI Overview")
 
-Vertex AI is Google Cloud's next generation, unified platform for machine learning development and the successor to AI Platform announced at Google I/O in May 2021. By developing machine learning solutions on Vertex AI, you can leverage the latest ML pre-built components and AutoML to significantly enhance development productivity, the ability to scale your workflow and decision making with your data, and accelerate time to value.
+A Vertex AI é uma plataforma unificada e de última geração do Google Cloud. Ela serve para o desenvolvimento de machine learning e é a sucessora do AI Platform, como anunciamos no Google I/O em maio de 2021. Ao desenvolver as soluções de machine learning na Vertex AI, você aproveita os componentes pré-criados de ML e AutoML mais recentes para melhorar bastante a produtividade do desenvolvimento, a capacidade de escalonar o fluxo de trabalho e as decisões com base em dados, além de acelerar o retorno do investimento.
 
-## Learning objectives
+## Objetivos
 
-* Train a TensorFlow model locally in a hosted [**Vertex Notebook**](https://cloud.google.com/vertex-ai/docs/general/notebooks?hl=sv).
-* Create a [**managed Tabular dataset**](https://cloud.google.com/vertex-ai/docs/training/using-managed-datasets?hl=sv) artifact for experiment tracking.
-* Containerize your training code with [**Cloud Build**](https://cloud.google.com/build) and push it to [**Google Cloud Artifact Registry**](https://cloud.google.com/artifact-registry).
-* Run a [**Vertex AI custom training job**](https://cloud.google.com/vertex-ai/docs/training/custom-training) with your custom model container.
-* Use [**Vertex TensorBoard**](https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview) to visualize model performance.
+* Train a TensorFlow model locally in a hosted .
+* Create a  artifact for experiment tracking.
+* Containerize your training code with .
+* Run a  with your custom model container.
+* Use  to visualize model performance.
 * Deploy your trained model to a [**Vertex Online Prediction Endpoint**](https://cloud.google.com/vertex-ai/docs/predictions/getting-predictions) for serving predictions.
 * Request an online prediction and explanation and see the response.
+
+* Treinar localmente um modelo do TensorFlow em um notebook da Vertex [**Vertex Notebook**](https://cloud.google.com/vertex-ai/docs/general/notebooks?hl=sv)
+
+* Criar um artefato de conjunto de dados tabular para rastrear experimentos [**managed Tabular dataset**](https://cloud.google.com/vertex-ai/docs/training/using-managed-datasets?hl=sv)
+
+* Conteinerizar o código de treinamento com o Cloud Build e enviar para o Artifact Registry do Google Cloud [**Cloud Build**](https://cloud.google.com/build) and push it to [**Google Cloud Artifact Registry**](https://cloud.google.com/artifact-registry)
+
+* Executar um job de treinamento personalizado da Vertex AI com o contêiner de modelo personalizado
+
+* Usar o Vertex TensorBoard para ver o desempenho do modelo [**Vertex TensorBoard**](https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview)
+
+* Implantar o modelo treinado em um endpoint de previsões on-line da Vertex para exibir as previsões [**Vertex AI custom training job**](https://cloud.google.com/vertex-ai/docs/training/custom-training)
+
+* Solicitar uma previsão e uma explicação on-line e conferir a resposta
+
+
 
 ## Setup
 
