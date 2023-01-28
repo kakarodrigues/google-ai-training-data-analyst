@@ -112,19 +112,20 @@ cd
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst.git
 ```
 
-### 5. Install the lab dependencies
+### 5. Instale as dependências do laboratório
 
-Run the following in the **JupyterLab** terminal to go to the `training-data-analyst/self-paced-labs/vertex-ai/vertex-ai-qwikstart` folder, then pip install `requirements.txt` to install lab dependencies:
+
+Execute o seguinte comando para acessar a pasta training-data-analyst/self-paced-labs/vertex-ai/vertex-ai-qwikstart e depois instale requirements.txt com o pip para instalar as dependências do laboratório:
 
 ```bash
 cd training-data-analyst/self-paced-labs/vertex-ai/vertex-ai-qwikstart
 pip install -U -r requirements.txt
 ```
 
-### 6. Navigate to lab notebook
+### 6. Navegue até o notebook do laboratório
 
-In your **JupyterLab** instance, navigate to __training-data-analyst__ > __self-paced-labs__ > __vertex-ai__ > __vertex-ai-qwikstart__, and open __lab_exercise.ipynb__.
+No seu notebook, acesse **training-data-analyst > self-paced-labs > vertex-ai > vertex-ai-qwikstart** e abra **lab_exercise.ipynb**
 
-Open `lab_exercise.ipynb` to complete the lab. 
+Continue o laboratório no notebook e clique no ícone Executar *(run-button.png)* na parte de cima da tela para executar cada célula. Você também pode executar o código em uma célula pressionando as teclas **SHIFT + ENTER**
 
 Happy coding!
