@@ -6,6 +6,7 @@ Neste laboratório, você usará o BigQuery para processamento de dados e análi
 
 A Vertex AI é uma plataforma unificada e de última geração do Google Cloud. Ela serve para o desenvolvimento de machine learning e é a sucessora do AI Platform, como anunciamos no Google I/O em maio de 2021. Ao desenvolver as soluções de machine learning na Vertex AI, você aproveita os componentes pré-criados de ML e AutoML mais recentes para melhorar bastante a produtividade do desenvolvimento, a capacidade de escalonar o fluxo de trabalho e as decisões com base em dados, além de acelerar o retorno do investimento.
 
+
 ## Objetivos
 
 * Treinar localmente um modelo do TensorFlow em um notebook da Vertex. 
@@ -26,13 +27,12 @@ A Vertex AI é uma plataforma unificada e de última geração do Google Cloud. 
 * Solicitar uma previsão e uma explicação on-line e conferir a resposta
 
 
-
 ## Setup
 
 ### 1. Habilite os serviços de nuvem utilizados no ambiente de laboratório:
 
 #### 1.1 No Console do GCP, na barra de ferramentas superior direita, clique no botão Abrir o Cloud Shell. 
-[Cloud Shell](https://cloud.google.com/shell/docs/launching-cloud-shell)
+[**Cloud Shell**](https://cloud.google.com/shell/docs/launching-cloud-shell)
 
 #### 1.2 Set o seu Project ID
 
