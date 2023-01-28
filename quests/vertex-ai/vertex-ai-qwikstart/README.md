@@ -126,6 +126,6 @@ pip install -U -r requirements.txt
 
 No seu notebook, acesse **training-data-analyst > self-paced-labs > vertex-ai > vertex-ai-qwikstart** e abra **lab_exercise.ipynb**
 
-Continue o laboratório no notebook e clique no ícone Executar *(run-button.png)* na parte de cima da tela para executar cada célula. Você também pode executar o código em uma célula pressionando as teclas **SHIFT + ENTER**
+Continue o laboratório no notebook e clique no ícone **Executar** na parte de cima da tela para executar cada célula. Você também pode executar o código em uma célula pressionando as teclas **SHIFT + ENTER**
 
 Happy coding!
