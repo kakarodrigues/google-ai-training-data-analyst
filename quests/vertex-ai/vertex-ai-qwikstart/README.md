@@ -31,8 +31,7 @@ A Vertex AI é uma plataforma unificada e de última geração do Google Cloud. 
 
 ### 1. Habilite os serviços de nuvem utilizados no ambiente de laboratório:
 
-#### 1.1 No Console do GCP, na barra de ferramentas superior direita, clique no botão Abrir o Cloud Shell. 
-[**Cloud Shell**](https://cloud.google.com/shell/docs/launching-cloud-shell)
+#### 1.1 No Console do GCP, na barra de ferramentas superior direita, clique no botão Abrir o Cloud Shell. [**Cloud Shell**](https://cloud.google.com/shell/docs/launching-cloud-shell)
 
 #### 1.2 Set o seu Project ID
 
@@ -98,16 +97,13 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 
 ### 3. Implante a instância doVertex Notebooks.
 
-Na página de instâncias do notebook, acesse a guia Notebooks gerenciados pelo usuário e clique em Novo notebook.
-[Create an new notebook instance](https://cloud.google.com/vertex-ai/docs/general/notebooks)
+Na página de instâncias do notebook, acesse a guia Notebooks gerenciados pelo usuário e clique em Novo notebook. [Create an new notebook instance](https://cloud.google.com/vertex-ai/docs/general/notebooks)
 
 Use o *TensorFlow Enterprise 2.3* no-GPU image. Deixe todas as outras configurações em seus valores padrão.
 
-Depois de alguns minutos, o console da Vertex AI vai exibir o nome da instância.
-[JupyterLab](https://jupyter.org/) IDE 
+Depois de alguns minutos, o console da Vertex AI vai exibir o nome da instância. [JupyterLab](https://jupyter.org/)
 
-Será preciso clicar em *OPEN JUPYTERLAB* link para abrir o JupyterLab
-[Vertex AI Notebooks Console](https://console.cloud.google.com/vertex-ai/notebooks/instances).
+Será preciso clicar em **OPEN JUPYTERLAB** link para abrir o JupyterLab. [Vertex AI Notebooks Console](https://console.cloud.google.com/vertex-ai/notebooks/instances).
 
 
 ### 4. Clone o repositório do laboratório
